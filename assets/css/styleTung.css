@@ -124,4 +124,49 @@ footer {
     border: 3px solid #3b82f6;
     object-fit: cover;
 }
+nav {
+    background: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.1); /* Làm trong suốt nhẹ */
+    backdrop-filter: blur(10px); /* Hiệu ứng mờ */
+    padding: 10px 0;
+    margin: -20px auto 0;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Danh sách menu */
+.navbar {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Mục menu */
+.navbar li {
+    margin: 0 15px;
+}
+
+/* Liên kết menu */
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Hiệu ứng hover */
+.navbar li a:hover {
+    background: linear-gradient(135deg, #5CB15A, #4CAF50);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(92, 177, 90, 0.5);
+}
 
